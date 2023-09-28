@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "neogeum:block/neogeum_block"
+    }
+  }
+}

@@ -1,7 +1,11 @@
 package ch.piyamon.neogeum;
 
+import ch.piyamon.neogeum.block.ModBlocks;
+import ch.piyamon.neogeum.item.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -24,6 +28,9 @@ public class Neogeum {
 
         modEventBus.addListener(this::commonSetup);
 
+        ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
@@ -34,7 +41,15 @@ public class Neogeum {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.NEOGEUM);
+            event.accept(ModItems.NEOGEUMSHARD);
+        }
 
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.NEOGEUM_BLOCK);
+            event.accept(ModBlocks.NEOGEUM_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
