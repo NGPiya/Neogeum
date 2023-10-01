@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "neogeum:neogeum_block",
+    "neogeum:neogeum_ore"
+  ]
+}

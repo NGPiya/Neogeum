@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "neogeum:neogeum_block"
+    }
+  ],
+  "result": {
+    "item": "neogeum:neogeum",
+    "count": 9
+  }
+}
