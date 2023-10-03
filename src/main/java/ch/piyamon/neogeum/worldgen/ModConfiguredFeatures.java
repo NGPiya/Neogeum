@@ -26,16 +26,16 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_NEOGEUM_ORE_KEY = registerKey("neogeum_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NEOGEUM_ORE_KEY = registerKey("neogeum_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
-        RuleTest deepslateReplaceabeles = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest netherReplaceables = new BlockMatchTest(Blocks.BASALT);
 
-        List<OreConfiguration.TargetBlockState> overworldNeogeumOres = List.of(OreConfiguration.target(deepslateReplaceabeles,
+        List<OreConfiguration.TargetBlockState> NeogeumOres = List.of(OreConfiguration.target(netherReplaceables,
                         ModBlocks.NEOGEUM_ORE.get().defaultBlockState()));
 
 
-        register(context, OVERWORLD_NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldNeogeumOres, 9));
+        register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 9));
 
 
     }
