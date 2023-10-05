@@ -1,6 +1,7 @@
 package ch.piyamon.neogeum;
 
 import ch.piyamon.neogeum.block.ModBlocks;
+import ch.piyamon.neogeum.item.ModCreativeModeTabs;
 import ch.piyamon.neogeum.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -25,10 +26,13 @@ public class Neogeum {
     public Neogeum() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modEventBus.addListener(this::commonSetup);
+        ModCreativeModeTabs.register(modEventBus);
 
-        ModItems.ITEMS.register(modEventBus);
-        ModBlocks.BLOCKS.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
+        modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -38,7 +42,6 @@ public class Neogeum {
 
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.NEOGEUM);
