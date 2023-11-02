@@ -20,9 +20,13 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.NEOGEUM.get());
                         output.accept(ModItems.NEOGEUMSHARD.get());
-
                         output.accept(ModBlocks.NEOGEUM_BLOCK.get());
                         output.accept(ModBlocks.NEOGEUM_ORE.get());
+                        output.accept(ModItems.NEOGEUM_SWORD.get());
+                        output.accept(ModItems.NEOGEUM_PICKAXE.get());
+                        output.accept(ModItems.NEOGEUM_AXE.get());
+                        output.accept(ModItems.NEOGEUM_SHOVEL.get());
+                        output.accept(ModItems.NEOGEUM_HOE.get());
                     }).build());
 
 
