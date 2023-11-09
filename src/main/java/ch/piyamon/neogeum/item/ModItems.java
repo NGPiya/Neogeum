@@ -31,6 +31,9 @@ public class ModItems {
         public static final RegistryObject<Item> NEOGEUM_HOE = ITEMS.register("neogeum_hoe",
                 () -> new HoeItem(ModToolTiers.NEOGEUM, 2, 3, new Item.Properties().durability(3001)));
 
+        public static final RegistryObject<Item> NEOGEUMPOTATO = ITEMS.register("neogeum_potato",
+                () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));
+
 
 
 }
