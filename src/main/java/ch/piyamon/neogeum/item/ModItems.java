@@ -21,15 +21,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
         public static final RegistryObject<Item> NEOGEUM_SWORD = ITEMS.register("neogeum_sword",
-                () -> new SwordItem(ModToolTiers.NEOGEUM, 5, 3, new Item.Properties().durability(3001)));
+                () -> new SwordItem(ModToolTiers.NEOGEUM, 5, -2.4F, new Item.Properties().durability(3001)));
         public static final RegistryObject<Item> NEOGEUM_PICKAXE = ITEMS.register("neogeum_pickaxe",
-                () -> new PickaxeItem(ModToolTiers.NEOGEUM, 1, 2, new Item.Properties().durability(3001)));
+                () -> new PickaxeItem(ModToolTiers.NEOGEUM, 1, -2.8F, new Item.Properties().durability(3001)));
         public static final RegistryObject<Item> NEOGEUM_SHOVEL = ITEMS.register("neogeum_shovel",
-                () -> new ShovelItem(ModToolTiers.NEOGEUM, 2, 3, new Item.Properties().durability(3001)));
+                () -> new ShovelItem(ModToolTiers.NEOGEUM,  1.5F, -3.0F, new Item.Properties().durability(3001)));
         public static final RegistryObject<Item> NEOGEUM_AXE = ITEMS.register("neogeum_axe",
-                () -> new AxeItem(ModToolTiers.NEOGEUM, 2, 3, new Item.Properties().durability(3001)));
+                () -> new AxeItem(ModToolTiers.NEOGEUM, 5.0F, -3.0F, new Item.Properties().durability(3001)));
         public static final RegistryObject<Item> NEOGEUM_HOE = ITEMS.register("neogeum_hoe",
-                () -> new HoeItem(ModToolTiers.NEOGEUM, 2, 3, new Item.Properties().durability(3001)));
+                () -> new HoeItem(ModToolTiers.NEOGEUM, -3, 0.0F, new Item.Properties().durability(3001)));
 
         public static final RegistryObject<Item> NEOGEUMPOTATO = ITEMS.register("neogeum_potato",
                 () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));

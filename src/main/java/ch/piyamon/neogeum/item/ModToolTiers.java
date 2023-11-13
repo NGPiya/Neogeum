@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier NEOGEUM = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 1400, 11f, 3f, 26,
+            new ForgeTier(5, 1400, 11.0F, 3f, 26,
                     ModTags.Blocks.NEEDS_NEOGEUM_TOOL, () -> Ingredient.of(ModItems.NEOGEUM.get())),
             new ResourceLocation(Neogeum.MOD_ID, "neogeum"), List.of(Tiers.NETHERITE), List.of());
 
