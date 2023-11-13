@@ -1,9 +1,16 @@
 {
   "item.neogeum.neogeum": "Neogeum",
   "item.neogeum.neogeum_shard": "Neogeum Shard",
+  "item.neogeum.neogeum_pickaxe": "Neogeum Pickaxe",
+  "item.neogeum.neogeum_axe": "Neogeum Axe",
+  "item.neogeum.neogeum_sword": "Neogeum Sword",
+  "item.neogeum.neogeum_hoe": "Neogeum Hoe",
+  "item.neogeum.neogeum_shovel": "Neogeum Shovel",
+  "item.neogeum.neogeum_potato": "Neogeum Potato",
 
   "block.neogeum.neogeum_block": "Neogeum Block",
   "block.neogeum.neogeum_ore": "Neogeum Ore",
+
 
   "creativetab.neogeum": "Neogeum"
 }
