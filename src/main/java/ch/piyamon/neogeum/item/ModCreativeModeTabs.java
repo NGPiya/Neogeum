@@ -25,10 +25,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NEOGEUM_AXE.get());
                         output.accept(ModItems.NEOGEUM_SHOVEL.get());
                         output.accept(ModItems.NEOGEUM_HOE.get());
+
+                        output.accept(ModItems.NEOGEUM_HELMET.get());
+                        output.accept(ModItems.NEOGEUM_CHESTPLATE.get());
+                        output.accept(ModItems.NEOGEUM_LEGGING.get());
+                        output.accept(ModItems.NEOGEUM_BOOTS.get());
+                        output.accept(ModItems.ROSEQUARTZ_HELMET.get());
+                        output.accept(ModItems.ROSEQUARTZ_CHESTPLATE.get());
+                        output.accept(ModItems.ROSEQUARTZ_LEGGING.get());
+                        output.accept(ModItems.ROSEQUARTZ_BOOTS.get());
+
+
                         output.accept(ModItems.NEOGEUMPOTATO.get());
 
                         output.accept(ModBlocks.NEOGEUM_BLOCK.get());
                         output.accept(ModBlocks.NEOGEUM_ORE.get());
+                        output.accept(ModBlocks.ROSEQUARTZ_ORE.get());
                     }).build());
 
 

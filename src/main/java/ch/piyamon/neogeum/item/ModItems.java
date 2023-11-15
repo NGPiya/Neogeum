@@ -19,6 +19,8 @@ public class ModItems {
                 () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> NEOGEUMSHARD = ITEMS.register("neogeum_shard",
             () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> ROSEQUARTZ = ITEMS.register("rose_quartz",
+                () -> new Item(new Item.Properties()));
 
         public static final RegistryObject<Item> NEOGEUM_SWORD = ITEMS.register("neogeum_sword",
                 () -> new SwordItem(ModToolTiers.NEOGEUM, 5, -2.4F, new Item.Properties().durability(3001)));
@@ -31,9 +33,24 @@ public class ModItems {
         public static final RegistryObject<Item> NEOGEUM_HOE = ITEMS.register("neogeum_hoe",
                 () -> new HoeItem(ModToolTiers.NEOGEUM, -3, 0.0F, new Item.Properties().durability(3001)));
 
+        public static final RegistryObject<Item> NEOGEUM_HELMET = ITEMS.register("neogeum_helmet",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.HELMET, new Item.Properties()));
+        public static final RegistryObject<Item> NEOGEUM_CHESTPLATE = ITEMS.register("neogeum_chestplate",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        public static final RegistryObject<Item> NEOGEUM_LEGGING = ITEMS.register("neogeum_leggings",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        public static final RegistryObject<Item> NEOGEUM_BOOTS = ITEMS.register("neogeum_boots",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+        public static final RegistryObject<Item> ROSEQUARTZ_HELMET = ITEMS.register("rose_quartz_helmet",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.HELMET, new Item.Properties()));
+        public static final RegistryObject<Item> ROSEQUARTZ_CHESTPLATE = ITEMS.register("rose_quartz_chestplate",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        public static final RegistryObject<Item> ROSEQUARTZ_LEGGING = ITEMS.register("rose_quartz_leggings",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        public static final RegistryObject<Item> ROSEQUARTZ_BOOTS = ITEMS.register("rose_quartz_boots",
+                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+
         public static final RegistryObject<Item> NEOGEUMPOTATO = ITEMS.register("neogeum_potato",
                 () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));
-
-
 
 }

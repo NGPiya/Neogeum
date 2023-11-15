@@ -27,15 +27,19 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> NEOGEUM_ORE_KEY = registerKey("neogeum_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> ROSE_QUARTZ_ORE_KEY = registerKey("rose_quartz_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest netherReplaceables = new BlockMatchTest(Blocks.BASALT);
 
         List<OreConfiguration.TargetBlockState> NeogeumOres = List.of(OreConfiguration.target(netherReplaceables,
                         ModBlocks.NEOGEUM_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> RoseQuartzOres = List.of(OreConfiguration.target(netherReplaceables,
+                ModBlocks.NEOGEUM_ORE.get().defaultBlockState()));
 
 
         register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 9));
+        register(context, ROSE_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(RoseQuartzOres, 5));
 
 
     }
