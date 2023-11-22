@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "neogeum",
+  "ingredients": [
+    {
+      "item": "neogeum:rose_quartz_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "neogeum:rose_quartz"
+  }
+}

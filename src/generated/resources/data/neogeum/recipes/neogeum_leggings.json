@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
-  ],
   "key": {
     "A": {
       "item": "neogeum:neogeum"
     }
   },
+  "pattern": [
+    "AAA",
+    "A A",
+    "A A"
+  ],
   "result": {
-    "item": "neogeum:neogeum_block"
-  }
+    "item": "neogeum:neogeum_leggings"
+  },
+  "show_notification": true
 }

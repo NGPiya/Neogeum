@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "AAA",
-    "ABA",
-    "AAA"
-  ],
   "key": {
     "A": {
       "item": "neogeum:neogeum"
     },
     "B": {
-      "item": "minecraft:potato"
+      "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "AA ",
+    "AB ",
+    " B "
+  ],
   "result": {
-    "item": "neogeum:neogeum_potato"
-  }
+    "item": "neogeum:neogeum_axe"
+  },
+  "show_notification": true
 }

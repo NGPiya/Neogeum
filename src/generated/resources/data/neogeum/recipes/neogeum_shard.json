@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "neogeum",
+  "key": {
+    "#": {
+      "item": "neogeum:neogeum_shard"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "neogeum:neogeum"
+  },
+  "show_notification": true
+}

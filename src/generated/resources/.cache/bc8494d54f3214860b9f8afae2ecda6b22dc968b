@@ -1,0 +1,10 @@
+// 1.20.1	2023-11-16T08:38:02.125581	Block States: neogeum
+7836077079e7042745b7161322d29145931ce304 assets/neogeum/blockstates/neogeum_block.json
+a2c3cb953b5345e7b6015e88e48ffb3215d608fa assets/neogeum/blockstates/neogeum_ore.json
+4b102ed1319cedad2988dbb7379e8b1a4663445b assets/neogeum/blockstates/rose_quartz_ore.json
+7fdc8f41327ee880ff6f04102421f9db0bbe5644 assets/neogeum/models/block/neogeum_block.json
+7c0c5d8f8f8fb443262783ac927ba18a4cf8d9c8 assets/neogeum/models/block/neogeum_ore.json
+90513865813f7306416782fa28db9dbcb6a2efb5 assets/neogeum/models/block/rose_quartz_ore.json
+2ea8854b055f49901b299d7777329a85214263b5 assets/neogeum/models/item/neogeum_block.json
+be30a8bdccd26af85196b8dad392199b1fb2f375 assets/neogeum/models/item/neogeum_ore.json
+c6ca2d8ea7971cea99fc144496d620ef46e53678 assets/neogeum/models/item/rose_quartz_ore.json
