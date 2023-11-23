@@ -100,6 +100,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_neogeum", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.NEOGEUM.get()).build()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NEOGEUM_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', ModItems.NEOGEUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_neogeum", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.NEOGEUM.get()).build()))
+                .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NEOGEUM_HELMET.get())
                 .pattern("AAA")
