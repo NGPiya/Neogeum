@@ -18,7 +18,6 @@ public class ModArmorItem extends ArmorItem {
                     .put(ModArmorMaterials.ROSE_QUARTZ, new MobEffectInstance(MobEffects.REGENERATION, 400, 1))
                     .put(ModArmorMaterials.NEOGEUM, new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1))
                     .build();
-s
     public ModArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
