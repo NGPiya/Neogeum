@@ -28,7 +28,7 @@ public class ModPlacedFeatures {
         register(context, NEOGEUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NEOGEUM_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-10), VerticalAnchor.absolute(100))));
-        register(context, ROSE_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NEOGEUM_ORE_KEY),
+        register(context, ROSE_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ROSE_QUARTZ_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(-30))));
 
