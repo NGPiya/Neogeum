@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NEOGEUM_AXE.get());
                         output.accept(ModItems.NEOGEUM_SHOVEL.get());
                         output.accept(ModItems.NEOGEUM_HOE.get());
+                        output.accept(ModItems.ROSEQUARTZ.get());
 
                         output.accept(ModItems.NEOGEUM_HELMET.get());
                         output.accept(ModItems.NEOGEUM_CHESTPLATE.get());

@@ -1,6 +1,7 @@
 package ch.piyamon.neogeum.item;
 
 import ch.piyamon.neogeum.Neogeum;
+import ch.piyamon.neogeum.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,13 +43,13 @@ public class ModItems {
         public static final RegistryObject<Item> NEOGEUM_BOOTS = ITEMS.register("neogeum_boots",
                 () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.BOOTS, new Item.Properties()));
         public static final RegistryObject<Item> ROSEQUARTZ_HELMET = ITEMS.register("rose_quartz_helmet",
-                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.HELMET, new Item.Properties()));
+                () -> new ModArmorItem(ModArmorMaterials.ROSE_QUARTZ, ArmorItem.Type.HELMET, new Item.Properties()));
         public static final RegistryObject<Item> ROSEQUARTZ_CHESTPLATE = ITEMS.register("rose_quartz_chestplate",
-                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+                () -> new ModArmorItem(ModArmorMaterials.ROSE_QUARTZ, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         public static final RegistryObject<Item> ROSEQUARTZ_LEGGING = ITEMS.register("rose_quartz_leggings",
-                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+                () -> new ModArmorItem(ModArmorMaterials.ROSE_QUARTZ, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         public static final RegistryObject<Item> ROSEQUARTZ_BOOTS = ITEMS.register("rose_quartz_boots",
-                () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+                () -> new ModArmorItem(ModArmorMaterials.ROSE_QUARTZ, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         public static final RegistryObject<Item> NEOGEUMPOTATO = ITEMS.register("neogeum_potato",
                 () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));

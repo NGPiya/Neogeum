@@ -9,7 +9,7 @@
           "Name": "neogeum:rose_quartz_ore"
         },
         "target": {
-          "block": "minecraft:stone",
+          "block": "minecraft:deepslate",
           "predicate_type": "minecraft:block_match"
         }
       }

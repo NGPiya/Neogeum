@@ -29,6 +29,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> NEOGEUM_ORE = registerBlock("neogeum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+    public static final RegistryObject<Block> ROSEQUARTZ_BLOCK = registerBlock("rose_quartz_block",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ROSEQUARTZ_ORE = registerBlock("rose_quartz_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
