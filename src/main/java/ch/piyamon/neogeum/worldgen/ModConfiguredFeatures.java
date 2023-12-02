@@ -31,16 +31,15 @@ public class ModConfiguredFeatures {
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest netherReplaceables = new BlockMatchTest(Blocks.BASALT);
-        RuleTest stoneReplaceables = new BlockMatchTest(Blocks.DEEPSLATE);
+        RuleTest stoneReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreConfiguration.TargetBlockState> NeogeumOres = List.of(OreConfiguration.target(netherReplaceables,
                         ModBlocks.NEOGEUM_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> RoseQuartzOres = List.of(OreConfiguration.target(stoneReplaceables,
-                        ModBlocks.ROSEQUARTZ_ORE.get().defaultBlockState()));
 
 
         register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 9));
-        register(context, ROSE_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(RoseQuartzOres, 5));
+        register(context, ROSE_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables,
+                ModBlocks.ROSEQUARTZ_ORE.get().defaultBlockState(), 9));
 
 
     }

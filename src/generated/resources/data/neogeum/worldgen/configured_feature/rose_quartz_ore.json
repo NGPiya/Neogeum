@@ -9,8 +9,8 @@
           "Name": "neogeum:rose_quartz_ore"
         },
         "target": {
-          "block": "minecraft:deepslate",
-          "predicate_type": "minecraft:block_match"
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:deepslate_ore_replaceables"
         }
       }
     ]
