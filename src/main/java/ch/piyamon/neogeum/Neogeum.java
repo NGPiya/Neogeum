@@ -1,6 +1,7 @@
 package ch.piyamon.neogeum;
 
 import ch.piyamon.neogeum.block.ModBlocks;
+import ch.piyamon.neogeum.entity.ModEntities;
 import ch.piyamon.neogeum.item.ModCreativeModeTabs;
 import ch.piyamon.neogeum.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -30,6 +31,7 @@ public class Neogeum {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
