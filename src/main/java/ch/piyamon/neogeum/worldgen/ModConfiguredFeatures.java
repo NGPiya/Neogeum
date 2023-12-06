@@ -39,7 +39,7 @@ public class ModConfiguredFeatures {
 
         register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 9));
         register(context, ROSE_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables,
-                ModBlocks.ROSEQUARTZ_ORE.get().defaultBlockState(), 9));
+                ModBlocks.ROSEQUARTZ_ORE.get().defaultBlockState(), 3));
 
 
     }

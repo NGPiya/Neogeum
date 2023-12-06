@@ -1,29 +1,37 @@
 {
   "item.neogeum.neogeum": "Neogeum",
   "item.neogeum.neogeum_shard": "Neogeum Shard",
+  "item.neogeum.neogeum_potato": "Neogeum Potato",
+  "item.neogeum.rose_quartz": "Rose quartz Gem",
+
   "item.neogeum.neogeum_pickaxe": "Neogeum Pickaxe",
   "item.neogeum.neogeum_axe": "Neogeum Axe",
   "item.neogeum.neogeum_sword": "Neogeum Sword",
   "item.neogeum.neogeum_hoe": "Neogeum Hoe",
   "item.neogeum.neogeum_shovel": "Neogeum Shovel",
+  "item.neogeum.carruptium_pickaxe": "Carruptium Pickaxe",
+  "item.neogeum.carruptium_axe": "Carruptium Axe",
+  "item.neogeum.carruptium_sword": "Carruptium Sword",
+  "item.neogeum.carruptium_hoe": "Carruptium Hoe",
+  "item.neogeum.carruptium_shovel": "Carruptium Shovel",
+
   "item.neogeum.neogeum_helmet": "Neogeum Helmet",
   "item.neogeum.neogeum_chestplate": "Neogeum Chestplate",
   "item.neogeum.neogeum_leggings": "Neogeum Leggings",
   "item.neogeum.neogeum_boots": "Neogeum Boots",
-
-  "item.neogeum.neogeum_potato": "Neogeum Potato",
-
-  "item.neogeum.rose_quartz": "Rose quartz Gem",
   "item.neogeum.rose_quartz_helmet": "Rose quartz Helmet",
   "item.neogeum.rose_quartz_chestplate": "Rose quartz Chestplate",
   "item.neogeum.rose_quartz_leggings": "Rose quartz Leggings",
   "item.neogeum.rose_quartz_boots": "Rose quartz Boots",
 
 
+
+
+
   "block.neogeum.neogeum_block": "Neogeum Block",
   "block.neogeum.neogeum_ore": "Neogeum Ore",
-
   "block.neogeum.rose_quartz_block": "Rose quartz Block",
+  "block.neogeum.rose_quartz_ore": "Rose quartz Ore",
 
 
   "creativetab.neogeum": "Neogeum"

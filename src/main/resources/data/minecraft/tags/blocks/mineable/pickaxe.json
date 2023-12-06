@@ -3,6 +3,7 @@
   "values": [
     "neogeum:neogeum_block",
     "neogeum:neogeum_ore",
-    "neogeum:rose_quartz_ore"
+    "neogeum:rose_quartz_ore",
+    "neogeum:rose_quartz_block"
   ]
 }

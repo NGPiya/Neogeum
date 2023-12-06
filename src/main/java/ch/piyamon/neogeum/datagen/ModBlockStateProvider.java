@@ -20,6 +20,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.NEOGEUM_BLOCK);
         blockWithItem(ModBlocks.NEOGEUM_ORE);
         blockWithItem(ModBlocks.ROSEQUARTZ_ORE);
+        blockWithItem(ModBlocks.ROSEQUARTZ_BLOCK);
 
     }
 

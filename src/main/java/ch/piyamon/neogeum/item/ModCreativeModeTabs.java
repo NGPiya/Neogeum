@@ -4,6 +4,7 @@ import ch.piyamon.neogeum.Neogeum;
 import ch.piyamon.neogeum.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,12 +21,19 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.NEOGEUM.get());
                         output.accept(ModItems.NEOGEUMSHARD.get());
+                        output.accept(ModItems.ROSEQUARTZ.get());
+                        output.accept(ModItems.CARRUPTIUM.get());
+
                         output.accept(ModItems.NEOGEUM_SWORD.get());
                         output.accept(ModItems.NEOGEUM_PICKAXE.get());
                         output.accept(ModItems.NEOGEUM_AXE.get());
                         output.accept(ModItems.NEOGEUM_SHOVEL.get());
                         output.accept(ModItems.NEOGEUM_HOE.get());
-                        output.accept(ModItems.ROSEQUARTZ.get());
+                        output.accept(ModItems.CARRUPTIUM_SWORD.get());
+                        output.accept(ModItems.CARRUPTIUM_PICKAXE.get());
+                        output.accept(ModItems.CARRUPTIUM_AXE.get());
+                        output.accept(ModItems.CARRUPTIUM_SHOVEL.get());
+                        output.accept(ModItems.CARRUPTIUM_HOE.get());
 
                         output.accept(ModItems.NEOGEUM_HELMET.get());
                         output.accept(ModItems.NEOGEUM_CHESTPLATE.get());
@@ -36,12 +44,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROSEQUARTZ_LEGGING.get());
                         output.accept(ModItems.ROSEQUARTZ_BOOTS.get());
 
-
                         output.accept(ModItems.NEOGEUMPOTATO.get());
 
                         output.accept(ModBlocks.NEOGEUM_BLOCK.get());
                         output.accept(ModBlocks.NEOGEUM_ORE.get());
                         output.accept(ModBlocks.ROSEQUARTZ_ORE.get());
+                        output.accept(ModBlocks.ROSEQUARTZ_BLOCK.get());
+
+                        output.accept(ModItems.MEGABLAZE_SPAWN_EGG.get());
                     }).build());
 
 

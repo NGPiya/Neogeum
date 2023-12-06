@@ -24,12 +24,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NEOGEUMSHARD);
         simpleItem(ModItems.ROSEQUARTZ);
         simpleItem(ModItems.NEOGEUMPOTATO);
+        simpleItem(ModItems.CARRUPTIUM);
 
         handheldItem(ModItems.NEOGEUM_SWORD);
         handheldItem(ModItems.NEOGEUM_PICKAXE);
         handheldItem(ModItems.NEOGEUM_SHOVEL);
         handheldItem(ModItems.NEOGEUM_AXE);
         handheldItem(ModItems.NEOGEUM_HOE);
+        handheldItem(ModItems.CARRUPTIUM_SWORD);
+        handheldItem(ModItems.CARRUPTIUM_PICKAXE);
+        handheldItem(ModItems.CARRUPTIUM_SHOVEL);
+        handheldItem(ModItems.CARRUPTIUM_AXE);
+        handheldItem(ModItems.CARRUPTIUM_HOE);
 
         simpleItem(ModItems.NEOGEUM_HELMET);
         simpleItem(ModItems.NEOGEUM_CHESTPLATE);
@@ -43,6 +49,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.NEOGEUM_BLOCK);
         simpleBlockItem(ModBlocks.NEOGEUM_ORE);
         simpleBlockItem(ModBlocks.ROSEQUARTZ_ORE);
+
+        withExistingParent(ModItems.MEGABLAZE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
