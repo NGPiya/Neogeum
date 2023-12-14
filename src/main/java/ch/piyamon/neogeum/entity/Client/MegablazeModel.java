@@ -1,16 +1,20 @@
 package ch.piyamon.neogeum.entity.Client;
 
+import ch.piyamon.neogeum.entity.animations.ModAnimationDefinitions;
+import ch.piyamon.neogeum.entity.custom.MegablazeEntity;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.model.EntityModel;
+import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 
-public class MegablazeModel<T extends Entity> extends EntityModel<T> {
+public class MegablazeModel<T extends MegablazeEntity> extends HierarchicalModel<T> {
     // This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
     public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("modid", "megablaze"), "main");
     private final ModelPart Megablaze;
@@ -45,12 +49,22 @@ public class MegablazeModel<T extends Entity> extends EntityModel<T> {
     }
 
     @Override
-    public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+    public void setupAnim(MegablazeEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+        this.root().getAllParts().forEach(ModelPart::resetPose);
 
+        this.animateWalk(ModAnimationDefinitions.WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
+        this.animate(entity.idleAnimationState, ModAnimationDefinitions.IDLE, ageInTicks, 1f);
+        this.animate(entity.attackAnimationState, ModAnimationDefinitions.ATTACK, ageInTicks, 1f);
     }
+
 
     @Override
     public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
         Megablaze.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+    }
+
+    @Override
+    public ModelPart root() {
+        return Megablaze;
     }
 }
