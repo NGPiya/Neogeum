@@ -1,0 +1,7 @@
+// 1.20.1	2023-12-14T08:17:08.0288976	Registries
+42a4a34d71f3da5db541501be26e86313f6b7016 data/neogeum/forge/biome_modifier/add_neogeum_ore.json
+b20125a37d99e9caf6e3f049ef80f029f344fa0c data/neogeum/forge/biome_modifier/add_rose_quartz_ore.json
+26791e49fc7bca4a9ffc0028ee8f6fdcce4bb321 data/neogeum/worldgen/configured_feature/neogeum_ore.json
+b800562376781dc386844a622978d440189cbb7d data/neogeum/worldgen/configured_feature/rose_quartz_ore.json
+26739d120515d4e9634998d9a866c193b10a00d5 data/neogeum/worldgen/placed_feature/neogeum_ore_placed.json
+b20c972f64a6c09218b938d8db868798b6276a8f data/neogeum/worldgen/placed_feature/rose_quartz_ore_placed.json

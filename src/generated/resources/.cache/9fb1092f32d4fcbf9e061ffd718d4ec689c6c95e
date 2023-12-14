@@ -1,6 +1,11 @@
-// 1.20.1	2023-11-22T21:40:52.179199	Recipes
+// 1.20.1	2023-12-14T08:19:03.4982671	Recipes
 d0d74b682687d90b03dfed601308baa8adbcfcab data/neogeum/advancements/recipes/misc/block_neogeum.json
 69f4cfd0ef95e83a0e255213a15f736cb03c8271 data/neogeum/advancements/recipes/misc/block_rose_quartz.json
+01ea6ca79ebecbb1c9e22c857b7d7700d757178b data/neogeum/advancements/recipes/misc/carruptium_axe.json
+254b336bec5b0dc836aa077abefb9344698c4619 data/neogeum/advancements/recipes/misc/carruptium_hoe.json
+f837811035fc4aff51ac07aa30894285c7613d90 data/neogeum/advancements/recipes/misc/carruptium_pickaxe.json
+1e9358c80329826bb67dee73052da2a467bdccbc data/neogeum/advancements/recipes/misc/carruptium_shovel.json
+cef63f6784f0fba8dcdcb63de92a20870fe6d90a data/neogeum/advancements/recipes/misc/carruptium_sword.json
 c0a3560321eb3747696822eed685911ec6fe2d0f data/neogeum/advancements/recipes/misc/neogeum.json
 a1fbc3abf2c58e4c1f70fc700d9bb1e282c01d50 data/neogeum/advancements/recipes/misc/neogeum_axe.json
 9aeaf56881fec6338ea941207924f191e9a5e955 data/neogeum/advancements/recipes/misc/neogeum_block.json
@@ -14,6 +19,7 @@ c5e613b38aa94f4ab20d7df64a3162523f34ad77 data/neogeum/advancements/recipes/misc/
 c5727e4b79268a8037c8f552734f2c6f0617ac59 data/neogeum/advancements/recipes/misc/neogeum_potato.json
 ec6c947be8fa2dfe097158e8b89b771686dcf41c data/neogeum/advancements/recipes/misc/neogeum_shard.json
 be1fb1e3e22771e82ec99e7f6a1be0040edd0e6c data/neogeum/advancements/recipes/misc/neogeum_shovel.json
+51ae11a24fbac37959228a28fa7fd3e1ff97ae6d data/neogeum/advancements/recipes/misc/neogeum_sword.json
 f6ad541fe54e7b949bfc1f4930594729ce31be38 data/neogeum/advancements/recipes/misc/neogeum_to_neogeum_shard.json
 b506fe3c45b05a5879ef6c038a92bf443d16a4cd data/neogeum/advancements/recipes/misc/rose_quartz_block.json
 d185ba4003531f27759390d14c008e11ad9d3189 data/neogeum/advancements/recipes/misc/rose_quartz_block_to_rose_quartz.json
@@ -23,6 +29,11 @@ e5fe3d918a572800d448c15f9a84b6404961c1a5 data/neogeum/advancements/recipes/misc/
 b461e37fa0befa205e39f454f3f3787723a1047f data/neogeum/advancements/recipes/misc/rose_quartz_leggings.json
 fa43047efc3231749228fbb249796d702c421d56 data/neogeum/recipes/block_neogeum.json
 1f540b98d83add41ef2e172da5c26da2730bc7af data/neogeum/recipes/block_rose_quartz.json
+2431cbca6a8b3f30413c96691a04fb10485333b6 data/neogeum/recipes/carruptium_axe.json
+08acc15a0eb57e56c4ee8ea07d688c4610abc53d data/neogeum/recipes/carruptium_hoe.json
+a7b0f9f4ca92cbd3d83467ac5d80b3a4f125bde8 data/neogeum/recipes/carruptium_pickaxe.json
+b9e268ab25f1b7f08099be619b09209eab008106 data/neogeum/recipes/carruptium_shovel.json
+7976faaa2320f66624ca519d5b07281c8f2d5719 data/neogeum/recipes/carruptium_sword.json
 d14b36d2408e08074ea8b24f957ee71b71bc7677 data/neogeum/recipes/neogeum.json
 70161f7edfbea6508ceae78b4923904c697797a9 data/neogeum/recipes/neogeum_axe.json
 59a7256c8d0a8032d23de1206582eec4e0c5abda data/neogeum/recipes/neogeum_block.json
@@ -36,6 +47,7 @@ b5ae26bb4f1e8ec0d0116534fa3b2e48e289b43d data/neogeum/recipes/neogeum_chestplate
 e7a4b5310c7f77baf6ef24a71c89d521ba9c9784 data/neogeum/recipes/neogeum_potato.json
 be3316982e103e6e96b900a0a9ac7e250dd8a597 data/neogeum/recipes/neogeum_shard.json
 197872d20f5175ba6a3effc61c63ca54933f0e6b data/neogeum/recipes/neogeum_shovel.json
+498ca0f3ae0caadc16f6a858f8c21faacfd59089 data/neogeum/recipes/neogeum_sword.json
 38583fef2fb47d39e90ca3fdd771654d7627cf22 data/neogeum/recipes/neogeum_to_neogeum_shard.json
 34d6c1d0cd1a21d7f7f3812e2e98803a6b6c5ef5 data/neogeum/recipes/rose_quartz_block.json
 d9b3f01a9f99f9363d2a25fdf59ff7a5033f923b data/neogeum/recipes/rose_quartz_block_to_rose_quartz.json
