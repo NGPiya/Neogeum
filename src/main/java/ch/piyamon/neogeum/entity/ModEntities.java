@@ -14,7 +14,7 @@ public class ModEntities {
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, Neogeum.MOD_ID);
 
     public static final RegistryObject<EntityType<MegablazeEntity>> MEGABLAZE =
-            ENTITY_TYPES.register("megablaze", () -> EntityType.Builder.of(MegablazeEntity::new, MobCategory.CREATURE)
+            ENTITY_TYPES.register("megablaze", () -> EntityType.Builder.of(MegablazeEntity::new, MobCategory.MONSTER)
                     .sized(2.5f, 2.5f).build("megablaze"));
 
     public static void register(IEventBus eventBus) {

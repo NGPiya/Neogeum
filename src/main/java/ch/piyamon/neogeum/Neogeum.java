@@ -1,10 +1,12 @@
 package ch.piyamon.neogeum;
 
 import ch.piyamon.neogeum.block.ModBlocks;
+import ch.piyamon.neogeum.entity.Client.MegablazeRenderer;
 import ch.piyamon.neogeum.entity.ModEntities;
 import ch.piyamon.neogeum.item.ModCreativeModeTabs;
 import ch.piyamon.neogeum.item.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,23 +39,10 @@ public class Neogeum {
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.NEOGEUM);
-            event.accept(ModItems.NEOGEUMSHARD);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.NEOGEUM_BLOCK);
-            event.accept(ModBlocks.NEOGEUM_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -67,6 +56,7 @@ public class Neogeum {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.MEGABLAZE.get(), MegablazeRenderer::new);
 
         }
     }
