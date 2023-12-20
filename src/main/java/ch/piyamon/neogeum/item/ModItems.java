@@ -38,15 +38,15 @@ public class ModItems {
         public static final RegistryObject<Item> NEOGEUM_HOE = ITEMS.register("neogeum_hoe",
                 () -> new HoeItem(ModToolTiers.NEOGEUM, -3, 0.0F, new Item.Properties().durability(3001)));
         public static final RegistryObject<Item> CARRUPTIUM_SWORD = ITEMS.register("carruptium_sword",
-                () -> new SwordItem(ModToolTiers.CARRUPTIUM, 5, -2.4F, new Item.Properties().durability(3001)));
+                () -> new SwordItem(ModToolTiers.CARRUPTIUM, 7, -2.4F, new Item.Properties().durability(3801)));
         public static final RegistryObject<Item> CARRUPTIUM_PICKAXE = ITEMS.register("carruptium_pickaxe",
-                () -> new PickaxeItem(ModToolTiers.CARRUPTIUM, 1, -2.8F, new Item.Properties().durability(3001)));
+                () -> new PickaxeItem(ModToolTiers.CARRUPTIUM, 1, -2.8F, new Item.Properties().durability(3801)));
         public static final RegistryObject<Item> CARRUPTIUM_SHOVEL = ITEMS.register("carruptium_shovel",
-                () -> new ShovelItem(ModToolTiers.CARRUPTIUM,  1.5F, -3.0F, new Item.Properties().durability(3001)));
+                () -> new ShovelItem(ModToolTiers.CARRUPTIUM,  1.5F, -3.0F, new Item.Properties().durability(3801)));
         public static final RegistryObject<Item> CARRUPTIUM_AXE = ITEMS.register("carruptium_axe",
-                () -> new AxeItem(ModToolTiers.CARRUPTIUM, 5.0F, -3.0F, new Item.Properties().durability(3001)));
+                () -> new AxeItem(ModToolTiers.CARRUPTIUM, 7.0F, -3.0F, new Item.Properties().durability(3801)));
         public static final RegistryObject<Item> CARRUPTIUM_HOE = ITEMS.register("carruptium_hoe",
-                () -> new HoeItem(ModToolTiers.CARRUPTIUM, -3, 0.0F, new Item.Properties().durability(3001)));
+                () -> new HoeItem(ModToolTiers.CARRUPTIUM, -3, 0.0F, new Item.Properties().durability(3801)));
 
         public static final RegistryObject<Item> NEOGEUM_HELMET = ITEMS.register("neogeum_helmet",
                 () -> new ArmorItem(ModArmorMaterials.NEOGEUM, ArmorItem.Type.HELMET, new Item.Properties()));

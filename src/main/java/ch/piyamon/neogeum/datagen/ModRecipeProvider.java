@@ -109,6 +109,52 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_neogeum", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.NEOGEUM.get()).build()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_AXE.get())
+                .pattern("AA ")
+                .pattern("AB ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_HOE.get())
+                .pattern("AA ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NEOGEUM_HELMET.get())
                 .pattern("AAA")
@@ -141,6 +187,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.NEOGEUM.get())
                 .unlockedBy("has_neogeum", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.NEOGEUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_AXE.get())
+                .pattern("AA ")
+                .pattern("AB ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_HOE.get())
+                .pattern("AA ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.CARRUPTIUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', ModItems.NEOGEUM.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.CARRUPTIUM.get()).build()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSEQUARTZ_HELMET.get())

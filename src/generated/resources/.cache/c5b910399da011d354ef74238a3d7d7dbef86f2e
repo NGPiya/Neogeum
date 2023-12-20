@@ -1,4 +1,11 @@
-// 1.20.1	2023-11-16T08:33:21.56907	Item Models: neogeum
+// 1.20.1	2023-12-14T08:17:08.0257469	Item Models: neogeum
+606752e6dd0e112bdbaba4d703c33f3d00102072 assets/neogeum/models/item/carruptium.json
+206e2ab0efc1b67748da8e09f845478e89159256 assets/neogeum/models/item/carruptium_axe.json
+f044742ac85008548c4811627eca48eed74fa715 assets/neogeum/models/item/carruptium_hoe.json
+a7477a629259fff4387975b73353229b588472a7 assets/neogeum/models/item/carruptium_pickaxe.json
+ec5283db93f62aba021373ade3230146e022ed93 assets/neogeum/models/item/carruptium_shovel.json
+4f7d98d33c0e4e4d7fbe944e0efcfad8944250f1 assets/neogeum/models/item/carruptium_sword.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/neogeum/models/item/megablaze_spawn_egg.json
 036838064718d5c0e2ef9bfd56c12494ecea1f6f assets/neogeum/models/item/neogeum.json
 51015a203ef7c2a336b244942fc6eff4ac671aa1 assets/neogeum/models/item/neogeum_axe.json
 6617642bc46c1de9537daea2991064fe1c46d037 assets/neogeum/models/item/neogeum_block.json
