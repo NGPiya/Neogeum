@@ -1,6 +1,7 @@
 package ch.piyamon.neogeum.item;
 
 import ch.piyamon.neogeum.Neogeum;
+import ch.piyamon.neogeum.block.ModBlocks;
 import ch.piyamon.neogeum.entity.ModEntities;
 import ch.piyamon.neogeum.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
@@ -70,6 +71,11 @@ public class ModItems {
 
         public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
                 () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));
+
+        public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
+                () -> new ItemNameBlockItem(ModBlocks.TOMATO_CROP.get(), new Item.Properties()));
+        public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
+                () -> new Item(new Item.Properties().food(ModFoodProperties.TOMATO)));
 
         public static final RegistryObject<Item> MEGABLAZE_SPAWN_EGG = ITEMS.register("megablaze_spawn_egg",
                 () -> new ForgeSpawnEggItem(ModEntities.MEGABLAZE, 16167425, 9109504,

@@ -2,6 +2,7 @@ package ch.piyamon.neogeum.block;
 
 import ch.piyamon.neogeum.Neogeum;
 import ch.piyamon.neogeum.block.custom.MilkProcessorBlock;
+import ch.piyamon.neogeum.block.custom.TomatoCropBlock;
 import ch.piyamon.neogeum.block.entity.MilkProcessorBlockEntity;
 import ch.piyamon.neogeum.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -46,8 +47,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
-    public static final RegistryObject<Block> MILK_PROCESSOR = registerBlock("gem_empowering_station",
+    public static final RegistryObject<Block> MILK_PROCESSOR = registerBlock("milk_processor",
             () -> new MilkProcessorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+
+    public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
+            () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
 
 
 

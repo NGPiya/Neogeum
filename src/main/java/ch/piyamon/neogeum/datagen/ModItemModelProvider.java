@@ -26,6 +26,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NEOGEUMPOTATO);
         simpleItem(ModItems.CARRUPTIUM);
 
+        simpleItem(ModItems.TOMATO);
+        simpleItem(ModItems.TOMATO_SEEDS);
+
         handheldItem(ModItems.NEOGEUM_SWORD);
         handheldItem(ModItems.NEOGEUM_PICKAXE);
         handheldItem(ModItems.NEOGEUM_SHOVEL);
