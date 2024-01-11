@@ -1,6 +1,8 @@
 package ch.piyamon.neogeum.block;
 
 import ch.piyamon.neogeum.Neogeum;
+import ch.piyamon.neogeum.block.custom.MilkProcessorBlock;
+import ch.piyamon.neogeum.block.entity.MilkProcessorBlockEntity;
 import ch.piyamon.neogeum.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -43,6 +45,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CARRUPTIUM_BLOCK = registerBlock("carruptium_block",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> MILK_PROCESSOR = registerBlock("gem_empowering_station",
+            () -> new MilkProcessorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
 

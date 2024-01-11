@@ -1,11 +1,15 @@
 package ch.piyamon.neogeum;
 
 import ch.piyamon.neogeum.block.ModBlocks;
+import ch.piyamon.neogeum.block.entity.ModBlockEntities;
 import ch.piyamon.neogeum.entity.Client.MegablazeRenderer;
 import ch.piyamon.neogeum.entity.ModEntities;
 import ch.piyamon.neogeum.item.ModCreativeModeTabs;
 import ch.piyamon.neogeum.item.ModItems;
+import ch.piyamon.neogeum.screen.MilkProcessorScreen;
+import ch.piyamon.neogeum.screen.ModMenuTypes;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +38,8 @@ public class Neogeum {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
@@ -57,6 +63,7 @@ public class Neogeum {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.MEGABLAZE.get(), MegablazeRenderer::new);
+            MenuScreens.register(ModMenuTypes.MILK_PROCESSOR_MENU.get(), MilkProcessorScreen::new);
 
         }
     }
