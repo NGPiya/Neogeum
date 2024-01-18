@@ -29,6 +29,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TOMATO);
         simpleItem(ModItems.TOMATO_SEEDS);
         simpleItem(ModItems.CHEESE);
+        simpleItem(ModItems.PIZZA);
 
         handheldItem(ModItems.NEOGEUM_SWORD);
         handheldItem(ModItems.NEOGEUM_PICKAXE);
@@ -49,10 +50,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROSEQUARTZ_CHESTPLATE);
         simpleItem(ModItems.ROSEQUARTZ_LEGGING);
         simpleItem(ModItems.ROSEQUARTZ_BOOTS);
-
-        simpleBlockItem(ModBlocks.NEOGEUM_BLOCK);
-        simpleBlockItem(ModBlocks.NEOGEUM_ORE);
-        simpleBlockItem(ModBlocks.ROSEQUARTZ_ORE);
 
         withExistingParent(ModItems.MEGABLAZE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }

@@ -21,6 +21,7 @@ public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> NEOGEUM_ORE_PLACED_KEY = registerKey("neogeum_ore_placed");
     public static final ResourceKey<PlacedFeature> ROSE_QUARTZ_ORE_PLACED_KEY = registerKey("rose_quartz_ore_placed");
+    public static final ResourceKey<PlacedFeature> CARRUPTIUM_ORE_PLACED_KEY = registerKey("carruptium_ore_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -31,6 +32,9 @@ public class ModPlacedFeatures {
         register(context, ROSE_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ROSE_QUARTZ_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-40), VerticalAnchor.absolute(-12))));
+        register(context, CARRUPTIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CARRUPTIUM_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(9,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-2))));
 
     }
 

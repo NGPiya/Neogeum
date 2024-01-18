@@ -24,6 +24,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROSEQUARTZ.get());
                         output.accept(ModItems.CARRUPTIUM.get());
 
+                        output.accept(ModItems.CHEESE.get());
+                        output.accept(ModItems.TOMATO.get());
+                        output.accept(ModItems.PIZZA.get());
+                        output.accept(ModItems.NEOGEUMPOTATO.get());
+                        output.accept(ModItems.TOMATO_SEEDS.get());
+
                         output.accept(ModItems.NEOGEUM_SWORD.get());
                         output.accept(ModItems.NEOGEUM_PICKAXE.get());
                         output.accept(ModItems.NEOGEUM_AXE.get());
@@ -44,12 +50,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ROSEQUARTZ_LEGGING.get());
                         output.accept(ModItems.ROSEQUARTZ_BOOTS.get());
 
-                        output.accept(ModItems.NEOGEUMPOTATO.get());
-
                         output.accept(ModBlocks.NEOGEUM_BLOCK.get());
                         output.accept(ModBlocks.NEOGEUM_ORE.get());
                         output.accept(ModBlocks.ROSEQUARTZ_ORE.get());
                         output.accept(ModBlocks.ROSEQUARTZ_BLOCK.get());
+                        output.accept(ModBlocks.CARRUPTIUM_BLOCK.get());
+                        output.accept(ModBlocks.CARRUPTIUM_ORE.get());
+                        output.accept(ModBlocks.MILK_PROCESSOR.get());
 
                         output.accept(ModItems.MEGABLAZE_SPAWN_EGG.get());
                     }).build());

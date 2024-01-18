@@ -1,5 +1,6 @@
-// 1.20.1	2024-01-11T16:50:39.8244315	Recipes
+// 1.20.1	2024-01-18T08:12:06.8897615	Recipes
 3426447ade1f17e102dbd7e63a13a84149840722 data/neogeum/advancements/recipes/cheese.json
+98435baa2e8833601c3a48e83cb96cb84e1d2807 data/neogeum/advancements/recipes/food/pizza.json
 d0d74b682687d90b03dfed601308baa8adbcfcab data/neogeum/advancements/recipes/misc/block_neogeum.json
 69f4cfd0ef95e83a0e255213a15f736cb03c8271 data/neogeum/advancements/recipes/misc/block_rose_quartz.json
 01ea6ca79ebecbb1c9e22c857b7d7700d757178b data/neogeum/advancements/recipes/misc/carruptium_axe.json
@@ -51,6 +52,7 @@ be3316982e103e6e96b900a0a9ac7e250dd8a597 data/neogeum/recipes/neogeum_shard.json
 197872d20f5175ba6a3effc61c63ca54933f0e6b data/neogeum/recipes/neogeum_shovel.json
 498ca0f3ae0caadc16f6a858f8c21faacfd59089 data/neogeum/recipes/neogeum_sword.json
 38583fef2fb47d39e90ca3fdd771654d7627cf22 data/neogeum/recipes/neogeum_to_neogeum_shard.json
+6ce7018cf11fc183f9623b4b63cf5aeab631196e data/neogeum/recipes/pizza.json
 34d6c1d0cd1a21d7f7f3812e2e98803a6b6c5ef5 data/neogeum/recipes/rose_quartz_block.json
 d9b3f01a9f99f9363d2a25fdf59ff7a5033f923b data/neogeum/recipes/rose_quartz_block_to_rose_quartz.json
 ed8a58f4080be6f9b7cebd644cf24e3f05bfd89a data/neogeum/recipes/rose_quartz_boots.json

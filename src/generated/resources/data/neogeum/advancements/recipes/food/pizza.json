@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "neogeum:pizza"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "neogeum:tomato"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tomato",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "neogeum:pizza"
+    ]
+  },
+  "sends_telemetry_event": false
+}

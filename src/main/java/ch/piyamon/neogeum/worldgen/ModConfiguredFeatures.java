@@ -28,6 +28,7 @@ public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> NEOGEUM_ORE_KEY = registerKey("neogeum_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ROSE_QUARTZ_ORE_KEY = registerKey("rose_quartz_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CARRUPTIUM_ORE_KEY = registerKey("carruptium_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest netherReplaceables = new BlockMatchTest(Blocks.BASALT);
@@ -40,6 +41,8 @@ public class ModConfiguredFeatures {
         register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 9));
         register(context, ROSE_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables,
                 ModBlocks.ROSEQUARTZ_ORE.get().defaultBlockState(), 3));
+        register(context, CARRUPTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables,
+                ModBlocks.CARRUPTIUM_ORE.get().defaultBlockState(), 4));
 
 
     }

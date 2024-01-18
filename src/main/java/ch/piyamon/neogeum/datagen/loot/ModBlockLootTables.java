@@ -36,7 +36,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties(ModBlocks.TOMATO_CROP.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TomatoCropBlock.AGE, 6));
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TomatoCropBlock.AGE, 5));
         this.add(ModBlocks.TOMATO_CROP.get(), this.createCropDrops(ModBlocks.TOMATO_CROP.get(),
                 ModItems.TOMATO.get(), ModItems.TOMATO_SEEDS.get(), lootitemcondition$builder1));
 

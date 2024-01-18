@@ -236,6 +236,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         new MilkProcessorRecipeBuilder(Items.MILK_BUCKET, ModItems.CHEESE.get(), 1)
                 .unlockedBy("has_milk", has(Items.MILK_BUCKET)).save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.PIZZA.get())
+                .pattern("BBB")
+                .pattern("CCC")
+                .pattern("AAA")
+                .define('A', Items.BREAD)
+                .define('B', ModItems.CHEESE.get())
+                .define('C', ModItems.TOMATO.get())
+                .unlockedBy("has_tomato", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModItems.TOMATO.get()).build()))
+                .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

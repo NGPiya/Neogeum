@@ -1,9 +1,13 @@
-// 1.20.1	2024-01-11T17:18:30.5881505	Block States: neogeum
+// 1.20.1	2024-01-18T08:52:57.2932602	Block States: neogeum
+9259c79999286b723587fa62f952b63873a5343d assets/neogeum/blockstates/carruptium_block.json
+d45102c9a7b5a51f0e3ec8ccb72dfa1585037fbb assets/neogeum/blockstates/carruptium_ore.json
 7836077079e7042745b7161322d29145931ce304 assets/neogeum/blockstates/neogeum_block.json
 a2c3cb953b5345e7b6015e88e48ffb3215d608fa assets/neogeum/blockstates/neogeum_ore.json
 043512a5ab8d1e225461466a1cd74ba58bf6e5fc assets/neogeum/blockstates/rose_quartz_block.json
 4b102ed1319cedad2988dbb7379e8b1a4663445b assets/neogeum/blockstates/rose_quartz_ore.json
-f8e0823ff6c6f9979cb709ceb2b61c2ecc538ab3 assets/neogeum/blockstates/tomato_crop.json
+31db8c2b2714b1d55df8744cf9613f59aef6c8c9 assets/neogeum/blockstates/tomato_crop.json
+4f6232a501d14b80842ee48732d42eed3bf67de1 assets/neogeum/models/block/carruptium_block.json
+e1eddd659ef657d58435084cc48670a65dda41d2 assets/neogeum/models/block/carruptium_ore.json
 7fdc8f41327ee880ff6f04102421f9db0bbe5644 assets/neogeum/models/block/neogeum_block.json
 7c0c5d8f8f8fb443262783ac927ba18a4cf8d9c8 assets/neogeum/models/block/neogeum_ore.json
 0d35fbe1ff937eb05504ab23d72ea7acae68233b assets/neogeum/models/block/rose_quartz_block.json
@@ -14,7 +18,8 @@ f8e0823ff6c6f9979cb709ceb2b61c2ecc538ab3 assets/neogeum/blockstates/tomato_crop.
 46305c268a183c1e25a904f69ab07acb38a38f95 assets/neogeum/models/block/tomato_stage3.json
 e6b2baa29e5891d2989706c8203ecb7b38c5e9cd assets/neogeum/models/block/tomato_stage4.json
 215eeb539ae815bdaa94712ab6f231913572b599 assets/neogeum/models/block/tomato_stage5.json
-f5ab5bdbce789a9bc56e6b8f0fdeaa194611fbe6 assets/neogeum/models/block/tomato_stage6.json
+0dcca3523543d78c90b87a5f8f14c33e35b69c05 assets/neogeum/models/item/carruptium_block.json
+6227587d24c7d39de8421e0cdd00c5573b4a59ef assets/neogeum/models/item/carruptium_ore.json
 2ea8854b055f49901b299d7777329a85214263b5 assets/neogeum/models/item/neogeum_block.json
 be30a8bdccd26af85196b8dad392199b1fb2f375 assets/neogeum/models/item/neogeum_ore.json
 bd907b099892632f3a5bd1b1a9513314eb7421ae assets/neogeum/models/item/rose_quartz_block.json

@@ -1,0 +1,9 @@
+// 1.20.1	2024-01-18T08:31:34.2580919	Loot Tables
+1b6305e499f762e90b8ff40998209f1582340642 data/neogeum/loot_tables/blocks/carruptium_block.json
+5360a91eb7362fc28af0feca4bd27b86cdad6907 data/neogeum/loot_tables/blocks/carruptium_ore.json
+5e04414d10ebcb6c793bd7eb6f8c0b3eac65204a data/neogeum/loot_tables/blocks/milk_processor.json
+0a627c13ed5d6b8fdda2c3eeaf079f61044908e0 data/neogeum/loot_tables/blocks/neogeum_block.json
+e8a98893683a80ed4e9850a93dd15ddb030df28a data/neogeum/loot_tables/blocks/neogeum_ore.json
+b7de47358c4d5dbd1fa3b130d6a86084b64fada4 data/neogeum/loot_tables/blocks/rose_quartz_block.json
+1b084ca14045b48db8fc10212ef153f314ac89d1 data/neogeum/loot_tables/blocks/rose_quartz_ore.json
+34194df74da45591a6c349d22a1f38c516b1fa96 data/neogeum/loot_tables/blocks/tomato_crop.json

@@ -77,6 +77,9 @@ public class ModItems {
         public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
                 () -> new Item(new Item.Properties().food(ModFoodProperties.TOMATO)));
 
+        public static final RegistryObject<Item> PIZZA = ITEMS.register("pizza",
+                () -> new Item(new Item.Properties().food(ModFoodProperties.PIZZA)));
+
         public static final RegistryObject<Item> MEGABLAZE_SPAWN_EGG = ITEMS.register("megablaze_spawn_egg",
                 () -> new ForgeSpawnEggItem(ModEntities.MEGABLAZE, 16167425, 9109504,
                         new Item.Properties()));

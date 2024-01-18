@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:bread"
+    },
+    "B": {
+      "item": "neogeum:cheese"
+    },
+    "C": {
+      "item": "neogeum:tomato"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "CCC",
+    "AAA"
+  ],
+  "result": {
+    "item": "neogeum:pizza"
+  },
+  "show_notification": true
+}
