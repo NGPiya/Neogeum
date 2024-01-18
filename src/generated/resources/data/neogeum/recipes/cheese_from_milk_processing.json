@@ -1,0 +1,11 @@
+{
+  "type": "neogeum:milk_processing",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "output": {
+    "item": "neogeum:cheese"
+  }
+}

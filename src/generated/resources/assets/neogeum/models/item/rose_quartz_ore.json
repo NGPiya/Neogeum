@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "neogeum:block/rose_quartz_ore"
+  }
+}

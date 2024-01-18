@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "neogeum",
+  "ingredients": [
+    {
+      "item": "neogeum:neogeum"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "neogeum:neogeum_shard"
+  }
+}
