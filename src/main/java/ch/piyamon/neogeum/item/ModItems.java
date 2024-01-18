@@ -70,7 +70,7 @@ public class ModItems {
                 () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));
 
         public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
-                () -> new Item(new Item.Properties().food(ModFoodProperties.NEOGEUMPOTATO)));
+                () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESE)));
 
         public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
                 () -> new ItemNameBlockItem(ModBlocks.TOMATO_CROP.get(), new Item.Properties()));

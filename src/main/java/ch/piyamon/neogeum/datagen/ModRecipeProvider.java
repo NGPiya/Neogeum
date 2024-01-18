@@ -2,6 +2,7 @@ package ch.piyamon.neogeum.datagen;
 
 import ch.piyamon.neogeum.Neogeum;
 import ch.piyamon.neogeum.block.ModBlocks;
+import ch.piyamon.neogeum.datagen.custom.MilkProcessorRecipeBuilder;
 import ch.piyamon.neogeum.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
@@ -18,7 +19,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> SMELTABLES = List.of(ModBlocks.NEOGEUM_ORE.get(),
+    private static final List<ItemLike> SMELTABLES = List.of(ModBlocks.NEOGEUM_ORE.get(),ModBlocks.CARRUPTIUM_ORE.get(),
             ModBlocks.ROSEQUARTZ_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
@@ -188,51 +189,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_neogeum", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.NEOGEUM.get()).build()))
                 .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_PICKAXE.get())
-                .pattern("AAA")
-                .pattern(" B ")
-                .pattern(" B ")
-                .define('A', ModItems.CARRUPTIUM.get())
-                .define('B', Items.STICK)
-                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.CARRUPTIUM.get()).build()))
-                .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_AXE.get())
-                .pattern("AA ")
-                .pattern("AB ")
-                .pattern(" B ")
-                .define('A', ModItems.CARRUPTIUM.get())
-                .define('B', Items.STICK)
-                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.CARRUPTIUM.get()).build()))
-                .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_SHOVEL.get())
-                .pattern(" A ")
-                .pattern(" B ")
-                .pattern(" B ")
-                .define('A', ModItems.CARRUPTIUM.get())
-                .define('B', Items.STICK)
-                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.CARRUPTIUM.get()).build()))
-                .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_HOE.get())
-                .pattern("AA ")
-                .pattern(" B ")
-                .pattern(" B ")
-                .define('A', ModItems.CARRUPTIUM.get())
-                .define('B', Items.STICK)
-                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.CARRUPTIUM.get()).build()))
-                .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CARRUPTIUM_SWORD.get())
-                .pattern(" A ")
-                .pattern(" A ")
-                .pattern(" B ")
-                .define('A', ModItems.NEOGEUM.get())
-                .define('B', Items.STICK)
-                .unlockedBy("has_carruptium", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.CARRUPTIUM.get()).build()))
-                .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSEQUARTZ_HELMET.get())
                 .pattern("AAA")
@@ -276,6 +232,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.ROSEQUARTZ.get(), RecipeCategory.MISC, ModBlocks.ROSEQUARTZ_BLOCK.get(),
                 "neogeum:block_rose_quartz", "rose_quartz","neogeum:rose_quartz_block_to_rose_quartz", "neogeum");
 
+
+        new MilkProcessorRecipeBuilder(Items.MILK_BUCKET, ModItems.CHEESE.get(), 1)
+                .unlockedBy("has_milk", has(Items.MILK_BUCKET)).save(pWriter);
 
     }
 

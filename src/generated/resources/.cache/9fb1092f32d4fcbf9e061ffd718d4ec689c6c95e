@@ -1,4 +1,5 @@
-// 1.20.1	2023-12-14T08:19:03.4982671	Recipes
+// 1.20.1	2024-01-11T16:50:39.8244315	Recipes
+3426447ade1f17e102dbd7e63a13a84149840722 data/neogeum/advancements/recipes/cheese.json
 d0d74b682687d90b03dfed601308baa8adbcfcab data/neogeum/advancements/recipes/misc/block_neogeum.json
 69f4cfd0ef95e83a0e255213a15f736cb03c8271 data/neogeum/advancements/recipes/misc/block_rose_quartz.json
 01ea6ca79ebecbb1c9e22c857b7d7700d757178b data/neogeum/advancements/recipes/misc/carruptium_axe.json
@@ -34,6 +35,7 @@ fa43047efc3231749228fbb249796d702c421d56 data/neogeum/recipes/block_neogeum.json
 a7b0f9f4ca92cbd3d83467ac5d80b3a4f125bde8 data/neogeum/recipes/carruptium_pickaxe.json
 b9e268ab25f1b7f08099be619b09209eab008106 data/neogeum/recipes/carruptium_shovel.json
 7976faaa2320f66624ca519d5b07281c8f2d5719 data/neogeum/recipes/carruptium_sword.json
+57bfb7595d16d1e8d7c46e1b0b6ec90c11581970 data/neogeum/recipes/cheese_from_milk_processing.json
 d14b36d2408e08074ea8b24f957ee71b71bc7677 data/neogeum/recipes/neogeum.json
 70161f7edfbea6508ceae78b4923904c697797a9 data/neogeum/recipes/neogeum_axe.json
 59a7256c8d0a8032d23de1206582eec4e0c5abda data/neogeum/recipes/neogeum_block.json

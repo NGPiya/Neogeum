@@ -1,6 +1,7 @@
 package ch.piyamon.neogeum.datagen;
 
 import ch.piyamon.neogeum.Neogeum;
+import ch.piyamon.neogeum.datagen.custom.MilkProcessorRecipeBuilder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -27,6 +28,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput));
         generator.addProvider(event.includeClient(), new ModWorldGenProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), ModLootTableProvider.create(packOutput));
 
     }
 }
