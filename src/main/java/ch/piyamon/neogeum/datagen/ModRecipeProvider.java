@@ -50,9 +50,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
-                .define('A', ModItems.ROSEQUARTZ.get())
+                .define('A', ModItems.PERFECTROSEQUARTZ.get())
                 .unlockedBy("has_rose_quartz", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.ROSEQUARTZ.get()).build()))
+                        of(ModItems.PERFECTROSEQUARTZ.get()).build()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NEOGEUMPOTATO.get())
@@ -194,31 +194,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .pattern("A A")
                 .pattern("   ")
-                .define('A', ModItems.ROSEQUARTZ.get())
+                .define('A', ModItems.PERFECTROSEQUARTZ.get())
                 .unlockedBy("has_rose_quartz", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.ROSEQUARTZ.get()).build()))
+                        of(ModItems.PERFECTROSEQUARTZ.get()).build()))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSEQUARTZ_CHESTPLATE.get())
                 .pattern("A A")
                 .pattern("AAA")
                 .pattern("AAA")
-                .define('A', ModItems.ROSEQUARTZ.get())
+                .define('A', ModItems.PERFECTROSEQUARTZ.get())
                 .unlockedBy("has_rose_quartz", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.ROSEQUARTZ.get()).build()))
+                        of(ModItems.PERFECTROSEQUARTZ.get()).build()))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSEQUARTZ_LEGGING.get())
                 .pattern("AAA")
                 .pattern("A A")
                 .pattern("A A")
-                .define('A', ModItems.ROSEQUARTZ.get())
+                .define('A', ModItems.PERFECTROSEQUARTZ.get())
                 .unlockedBy("has_rose_quartz", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModItems.ROSEQUARTZ.get()).build()))
+                        of(ModItems.PERFECTROSEQUARTZ.get()).build()))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSEQUARTZ_BOOTS.get())
                 .pattern("   ")
                 .pattern("A A")
                 .pattern("A A")
-                .define('A', ModItems.ROSEQUARTZ.get())
+                .define('A', ModItems.PERFECTROSEQUARTZ.get())
                 .unlockedBy("has_rose_quartz", inventoryTrigger(ItemPredicate.Builder.item().
                         of(ModItems.NEOGEUM.get()).build()))
                 .save(pWriter);
@@ -229,8 +229,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.NEOGEUM.get(), RecipeCategory.MISC, ModBlocks.NEOGEUM_BLOCK.get(),
                 "neogeum:block_neogeum", "neogeum","neogeum:neogeum_block_to_neogeum", "neogeum");
 
-        nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.ROSEQUARTZ.get(), RecipeCategory.MISC, ModBlocks.ROSEQUARTZ_BLOCK.get(),
-                "neogeum:block_rose_quartz", "rose_quartz","neogeum:rose_quartz_block_to_rose_quartz", "neogeum");
+        nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.ROSEQUARTZ.get(), RecipeCategory.MISC, ModItems.PERFECTROSEQUARTZ.get(),
+                "neogeum:rose_quartz", "neogeum","neogeum:rose_quartz_to_perfect_rose_quartz", "neogeum");
+        nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.PERFECTROSEQUARTZ.get(), RecipeCategory.MISC, ModBlocks.ROSEQUARTZ_BLOCK.get(),
+                "neogeum:block_rose_quartz", "perfect_rose_quartz","neogeum:rose_quartz_block_to_rose_quartz", "neogeum");
 
 
         new MilkProcessorRecipeBuilder(Items.MILK_BUCKET, ModItems.CHEESE.get(), 1)

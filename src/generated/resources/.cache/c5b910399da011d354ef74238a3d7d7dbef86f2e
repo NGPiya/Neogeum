@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-18T08:52:57.2957272	Item Models: neogeum
+// 1.20.1	2024-01-23T21:52:44.1368184	Item Models: neogeum
 606752e6dd0e112bdbaba4d703c33f3d00102072 assets/neogeum/models/item/carruptium.json
 206e2ab0efc1b67748da8e09f845478e89159256 assets/neogeum/models/item/carruptium_axe.json
 f044742ac85008548c4811627eca48eed74fa715 assets/neogeum/models/item/carruptium_hoe.json
@@ -19,6 +19,7 @@ add54ad0355c6bd09f9f58fb4059538fd84bb04c assets/neogeum/models/item/neogeum_legg
 00876faba38678d010867177c18e0e306b893d1e assets/neogeum/models/item/neogeum_shard.json
 26b91ac7c615f62ddcbed17810f21cdf3b2a3656 assets/neogeum/models/item/neogeum_shovel.json
 f48809c5eb661055bdbd67057902e14fa1becfdd assets/neogeum/models/item/neogeum_sword.json
+dcb9a725f8b6461e279f2b8d31ea2de3a01eeb2f assets/neogeum/models/item/perfect_rose_quartz.json
 c6cd7fa81c4ee81eb74043ae10dc87f69cb26296 assets/neogeum/models/item/pizza.json
 2d31cd01a763c8115f7d621bf8a194f0eb30e3b8 assets/neogeum/models/item/rose_quartz.json
 68bab373d0a29acd58e9a66db37082de7617646c assets/neogeum/models/item/rose_quartz_boots.json

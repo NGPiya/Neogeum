@@ -16,8 +16,8 @@ public class ModFoodProperties {
 
     public static final FoodProperties CHEESE = new FoodProperties.Builder().nutrition(4).saturationMod(0.5f).build();
 
-    public static final FoodProperties PIZZA = new FoodProperties.Builder().nutrition(7).saturationMod(0.5f)
-            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 120, 1), 1.0F)
+    public static final FoodProperties PIZZA = new FoodProperties.Builder().nutrition(7).saturationMod(1f)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 120, 1), 0.2F)
             .effect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 540, 2), 1.0F)
             .alwaysEat().build();
 

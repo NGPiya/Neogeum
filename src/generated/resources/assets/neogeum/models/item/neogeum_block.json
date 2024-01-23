@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "neogeum:block/neogeum_block"
-  }
+  "parent": "neogeum:block/neogeum_block"
 }

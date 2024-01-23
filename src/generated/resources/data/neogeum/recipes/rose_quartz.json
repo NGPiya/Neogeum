@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "neogeum",
+  "key": {
+    "#": {
+      "item": "neogeum:rose_quartz"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "neogeum:perfect_rose_quartz"
+  },
+  "show_notification": true
+}

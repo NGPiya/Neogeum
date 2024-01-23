@@ -6,6 +6,7 @@ import ch.piyamon.neogeum.entity.Client.MegablazeRenderer;
 import ch.piyamon.neogeum.entity.ModEntities;
 import ch.piyamon.neogeum.item.ModCreativeModeTabs;
 import ch.piyamon.neogeum.item.ModItems;
+import ch.piyamon.neogeum.loot.ModLootModifiers;
 import ch.piyamon.neogeum.recipe.ModRecipes;
 import ch.piyamon.neogeum.screen.MilkProcessorScreen;
 import ch.piyamon.neogeum.screen.ModMenuTypes;
@@ -42,6 +43,7 @@ public class Neogeum {
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);

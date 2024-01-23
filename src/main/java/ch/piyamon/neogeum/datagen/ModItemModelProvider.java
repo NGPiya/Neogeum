@@ -23,6 +23,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NEOGEUM);
         simpleItem(ModItems.NEOGEUMSHARD);
         simpleItem(ModItems.ROSEQUARTZ);
+        simpleItem(ModItems.PERFECTROSEQUARTZ);
         simpleItem(ModItems.NEOGEUMPOTATO);
         simpleItem(ModItems.CARRUPTIUM);
 

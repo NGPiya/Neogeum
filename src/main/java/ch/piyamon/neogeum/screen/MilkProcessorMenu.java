@@ -23,7 +23,7 @@ public class MilkProcessorMenu extends AbstractContainerMenu {
 
     public MilkProcessorMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
         super(ModMenuTypes.MILK_PROCESSOR_MENU.get(), pContainerId);
-        checkContainerSize(inv, 4);
+        checkContainerSize(inv, 2);
         blockEntity = ((MilkProcessorBlockEntity) entity);
         this.level = inv.player.level();
         this.data = data;
@@ -33,9 +33,7 @@ public class MilkProcessorMenu extends AbstractContainerMenu {
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
             this.addSlot(new SlotItemHandler(iItemHandler, 0, 80, 11));
-            this.addSlot(new SlotItemHandler(iItemHandler, 1, 26, 59));
             this.addSlot(new SlotItemHandler(iItemHandler, 2, 80, 59));
-            this.addSlot(new SlotItemHandler(iItemHandler, 3, 134, 59));
         });
 
         addDataSlots(data);

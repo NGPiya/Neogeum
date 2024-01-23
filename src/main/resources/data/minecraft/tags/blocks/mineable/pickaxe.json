@@ -4,6 +4,8 @@
     "neogeum:neogeum_block",
     "neogeum:neogeum_ore",
     "neogeum:rose_quartz_ore",
-    "neogeum:rose_quartz_block"
+    "neogeum:rose_quartz_block",
+    "neogeum:carruptium_block",
+    "neogeum:carruptium_ore"
   ]
 }

@@ -23,6 +23,8 @@ public class ModItems {
                 () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> NEOGEUMSHARD = ITEMS.register("neogeum_shard",
             () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> PERFECTROSEQUARTZ = ITEMS.register("perfect_rose_quartz",
+                () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> ROSEQUARTZ = ITEMS.register("rose_quartz",
                 () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> CARRUPTIUM = ITEMS.register("carruptium",

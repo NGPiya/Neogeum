@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NEOGEUM.get());
                         output.accept(ModItems.NEOGEUMSHARD.get());
                         output.accept(ModItems.ROSEQUARTZ.get());
+                        output.accept(ModItems.PERFECTROSEQUARTZ.get());
                         output.accept(ModItems.CARRUPTIUM.get());
 
                         output.accept(ModItems.CHEESE.get());

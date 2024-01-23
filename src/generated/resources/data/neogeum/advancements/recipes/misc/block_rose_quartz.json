@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rose_quartz": {
+    "has_perfect_rose_quartz": {
       "conditions": {
         "items": [
           {
             "items": [
-              "neogeum:rose_quartz"
+              "neogeum:perfect_rose_quartz"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_rose_quartz",
+      "has_perfect_rose_quartz",
       "has_the_recipe"
     ]
   ],

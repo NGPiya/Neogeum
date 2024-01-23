@@ -1,0 +1,4 @@
+// 1.20.1	2024-01-23T21:17:04.7728824	Global Loot Modifiers : neogeum
+5634d9bc2b053bc11a63eacd7b8391e56cfd7177 data/forge/loot_modifiers/global_loot_modifiers.json
+4345a1e45ceb68c18ee52afc971d44bcab946840 data/neogeum/loot_modifiers/tomato_seeds_from_fern.json
+2fa9f41e7aa75c743be53d68ad470e7dc2f750cf data/neogeum/loot_modifiers/tomato_seeds_from_grass.json

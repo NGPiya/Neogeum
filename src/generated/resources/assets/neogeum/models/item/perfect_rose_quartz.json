@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "neogeum:item/perfect_rose_quartz"
+  }
+}
