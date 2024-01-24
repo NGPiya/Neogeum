@@ -51,7 +51,7 @@ public class MegablazeEntity extends Monster {
         this.setPathfindingMalus(BlockPathTypes.LAVA, 8.0F);
         this.setPathfindingMalus(BlockPathTypes.DANGER_FIRE, 0.0F);
         this.setPathfindingMalus(BlockPathTypes.DAMAGE_FIRE, 0.0F);
-        this.xpReward = 50;
+        this.xpReward = 300;
     }
 
     @Override
@@ -67,11 +67,11 @@ public class MegablazeEntity extends Monster {
     }
 
     public static AttributeSupplier.Builder createAttributes() {
-        return Monster.createLivingAttributes().add(Attributes.MAX_HEALTH, 200D)
+        return Monster.createLivingAttributes().add(Attributes.MAX_HEALTH, 1000D)
                 .add(Attributes.MOVEMENT_SPEED, 0.3D)
                 .add(Attributes.FOLLOW_RANGE, 48D)
                 .add(Attributes.ARMOR_TOUGHNESS, 0.1f)
-                .add(Attributes.ATTACK_KNOCKBACK, 1f)
+                .add(Attributes.ATTACK_KNOCKBACK, 4f)
                 .add(Attributes.ATTACK_DAMAGE, 8f);
     }
 
