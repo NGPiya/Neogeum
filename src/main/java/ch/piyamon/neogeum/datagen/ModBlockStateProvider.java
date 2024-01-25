@@ -32,6 +32,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         makeCrop(((TomatoCropBlock) ModBlocks.TOMATO_CROP.get()), "tomato_stage", "tomato_stage");
 
+        horizontalBlock(ModBlocks.MILK_PROCESSOR.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/milk_processor")));
+
     }
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {

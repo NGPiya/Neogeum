@@ -52,6 +52,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROSEQUARTZ_LEGGING);
         simpleItem(ModItems.ROSEQUARTZ_BOOTS);
 
+
+
         withExistingParent(ModItems.MEGABLAZE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
