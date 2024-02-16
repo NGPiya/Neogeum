@@ -27,13 +27,13 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, NEOGEUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NEOGEUM_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(9,
+                ModOrePlacement.commonOrePlacement(8,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-10), VerticalAnchor.absolute(100))));
         register(context, ROSE_QUARTZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ROSE_QUARTZ_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(9,
+                ModOrePlacement.commonOrePlacement(8,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-40), VerticalAnchor.absolute(-12))));
         register(context, CARRUPTIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CARRUPTIUM_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(9,
+                ModOrePlacement.commonOrePlacement(8,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-2))));
 
     }

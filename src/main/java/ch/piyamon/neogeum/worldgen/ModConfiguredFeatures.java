@@ -38,11 +38,11 @@ public class ModConfiguredFeatures {
                         ModBlocks.NEOGEUM_ORE.get().defaultBlockState()));
 
 
-        register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 9));
+        register(context, NEOGEUM_ORE_KEY, Feature.ORE, new OreConfiguration(NeogeumOres, 6));
         register(context, ROSE_QUARTZ_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables,
                 ModBlocks.ROSEQUARTZ_ORE.get().defaultBlockState(), 3));
         register(context, CARRUPTIUM_ORE_KEY, Feature.ORE, new OreConfiguration(stoneReplaceables,
-                ModBlocks.CARRUPTIUM_ORE.get().defaultBlockState(), 4));
+                ModBlocks.CARRUPTIUM_ORE.get().defaultBlockState(), 3));
 
 
     }

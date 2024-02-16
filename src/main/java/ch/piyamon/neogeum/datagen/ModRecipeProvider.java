@@ -249,6 +249,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         of(ModItems.TOMATO.get()).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MILK_PROCESSOR.get(), 1)
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Items.IRON_INGOT)
+                .define('B', Items.FURNACE)
+                .unlockedBy("has_iron", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(Items.IRON_INGOT).build()))
+                .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

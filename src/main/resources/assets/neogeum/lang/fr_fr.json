@@ -1,0 +1,51 @@
+{
+  "item.neogeum.neogeum": "Neogeum",
+  "item.neogeum.neogeum_shard": "Fragment de Neogeum",
+  "item.neogeum.neogeum_potato": "Patate de Neogeum",
+  "item.neogeum.rose_quartz": "Gemme de Rose quartz",
+  "item.neogeum.perfect_rose_quartz": "Rose quartz Parfait",
+  "item.neogeum.carruptium": "Carruptium",
+  "item.neogeum.cheese": "Fromage",
+  "item.neogeum.tomato": "Tomate",
+  "item.neogeum.tomato_seeds": "Graines de Tomate",
+  "item.neogeum.pizza": "Pizza",
+
+
+  "item.neogeum.neogeum_pickaxe": "Pioche en Neogeum",
+  "item.neogeum.neogeum_axe": "Hache en Neogeum",
+  "item.neogeum.neogeum_sword": "\u00c9p\u00e9e en Neogeum",
+  "item.neogeum.neogeum_hoe": "Houe Neogeum",
+  "item.neogeum.neogeum_shovel": "Pelle en Neogeum",
+  "item.neogeum.carruptium_pickaxe": "Pioche en Carruptium",
+  "item.neogeum.carruptium_axe": "Hache en Carruptium",
+  "item.neogeum.carruptium_sword": "\u00c9p\u00e9e en Carruptium",
+  "item.neogeum.carruptium_hoe": "Houe en Carruptium",
+  "item.neogeum.carruptium_shovel": "Pelle en Carruptium",
+
+  "item.neogeum.neogeum_helmet": "Casque en Neogeum",
+  "item.neogeum.neogeum_chestplate": "Plastron en Neogeum",
+  "item.neogeum.neogeum_leggings": "Jambi\u00e8res en Neogeum",
+  "item.neogeum.neogeum_boots": "Bottes en Neogeum",
+  "item.neogeum.rose_quartz_helmet": "Casque en Rose quartz",
+  "item.neogeum.rose_quartz_chestplate": "Plastron en Rose quartz",
+  "item.neogeum.rose_quartz_leggings": "Jambi\u00e8res en Rose quartz",
+  "item.neogeum.rose_quartz_boots": "Bottes en Rose quartz",
+
+
+  "item.neogeum.megablaze_spawn_egg": "Oeuf d'apparition de Megablaze",
+
+
+
+
+
+  "block.neogeum.neogeum_block": "Bloc de Neogeum",
+  "block.neogeum.neogeum_ore": "Minerai de Neogeum",
+  "block.neogeum.rose_quartz_block": "Bloc de Rose quartz",
+  "block.neogeum.rose_quartz_ore": "Minerai de Rose quartz",
+  "block.neogeum.carruptium_block": "Bloc de Carruptium",
+  "block.neogeum.carruptium_ore": "Minerai de Carruptium",
+  "block.neogeum.milk_processor": "Traiteur de Lait",
+
+
+  "creativetab.neogeum": "Neogeum"
+}

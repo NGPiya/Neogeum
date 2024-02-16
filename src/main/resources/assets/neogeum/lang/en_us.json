@@ -3,6 +3,13 @@
   "item.neogeum.neogeum_shard": "Neogeum Shard",
   "item.neogeum.neogeum_potato": "Neogeum Potato",
   "item.neogeum.rose_quartz": "Rose quartz Gem",
+  "item.neogeum.perfect_rose_quartz": "Perfect Rose quartz",
+  "item.neogeum.carruptium": "Carruptium",
+  "item.neogeum.cheese": "Cheese",
+  "item.neogeum.tomato": "Tomato",
+  "item.neogeum.tomato_seeds": "Tomato Seeds",
+  "item.neogeum.pizza": "Pizza",
+
 
   "item.neogeum.neogeum_pickaxe": "Neogeum Pickaxe",
   "item.neogeum.neogeum_axe": "Neogeum Axe",
@@ -35,6 +42,9 @@
   "block.neogeum.neogeum_ore": "Neogeum Ore",
   "block.neogeum.rose_quartz_block": "Rose quartz Block",
   "block.neogeum.rose_quartz_ore": "Rose quartz Ore",
+  "block.neogeum.carruptium_block": "Carruptium Block",
+  "block.neogeum.carruptium_ore": "Carruptium Ore",
+  "block.neogeum.milk_processor": "Milk Processor",
 
 
   "creativetab.neogeum": "Neogeum"

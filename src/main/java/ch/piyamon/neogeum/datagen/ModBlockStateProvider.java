@@ -29,11 +29,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ROSEQUARTZ_BLOCK);
         blockWithItem(ModBlocks.CARRUPTIUM_BLOCK);
         blockWithItem(ModBlocks.CARRUPTIUM_ORE);
+        blockWithItem(ModBlocks.MILK_PROCESSOR);
 
         makeCrop(((TomatoCropBlock) ModBlocks.TOMATO_CROP.get()), "tomato_stage", "tomato_stage");
-
-        horizontalBlock(ModBlocks.MILK_PROCESSOR.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/milk_processor")));
 
     }
 

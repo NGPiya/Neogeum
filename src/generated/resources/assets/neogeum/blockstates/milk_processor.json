@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=east": {
-      "model": "neogeum:block/milk_processor",
-      "y": 90
-    },
-    "facing=north": {
+    "": {
       "model": "neogeum:block/milk_processor"
-    },
-    "facing=south": {
-      "model": "neogeum:block/milk_processor",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "neogeum:block/milk_processor",
-      "y": 270
     }
   }
 }
