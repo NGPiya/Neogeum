@@ -11,6 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Objects;
+
 public class ModItems {
         public static final DeferredRegister<Item> ITEMS =
                 DeferredRegister.create(ForgeRegistries.ITEMS, Neogeum.MOD_ID);
@@ -85,5 +87,4 @@ public class ModItems {
         public static final RegistryObject<Item> MEGABLAZE_SPAWN_EGG = ITEMS.register("megablaze_spawn_egg",
                 () -> new ForgeSpawnEggItem(ModEntities.MEGABLAZE, 16167425, 9109504,
                         new Item.Properties()));
-
 }
